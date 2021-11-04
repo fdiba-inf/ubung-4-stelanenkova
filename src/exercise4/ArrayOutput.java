@@ -11,14 +11,13 @@ public class ArrayOutput {
     System.out.println("Enter size: ");
     int size = input.nextInt();
 
-    int numbers[] = new int[size];
+    int[] numbers = new int[size];
 
     System.out.println("Enter numbers: ");
     for (int i = 0; i < size; i++) {
       numbers[i] = input.nextInt();
     }
     for (int i = 0; i < size; i++) {
-      System.out.println();
       for (int x = 0; x < i; x++) {
         System.out.print(" ");
       }
